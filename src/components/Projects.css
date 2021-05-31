@@ -1,0 +1,30 @@
+.project{
+    height: fit-content;
+    background:  #191919 ;
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.project__container{
+    max-width: 93vw;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project__title{
+    
+}
+
+@media only screen and (max-width:811px){
+    .project__container{
+        flex-direction: column;
+    } 
+    .ProjectTile{
+        width: 57vw;
+
+    }
+    
+}

@@ -1,0 +1,58 @@
+.ProjectTile{
+    min-width: 350px;
+    height: 460px;
+    border-radius: 8px;
+    background: #222831;
+   padding: 15px;
+    box-shadow: 1px 2px 2px -2px rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+   
+}
+.ProjectTile__titleButton{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.ProjectTile__titleButton .btn{
+     margin: 5px;
+}
+@media only screen and (max-width:811px){
+    .ProjectTile{
+        width: 51vw;
+
+    }
+    
+}
+.ProjectTile__title{
+height: 156px;
+}
+.ProjectTile__title .tech{
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ProjectTile__title span{
+   background: rgb(139, 138, 138);
+ padding: 7px 5px;
+ border-radius: 4px;
+    text-align: center;
+
+}
+
+.ProjectTile__title p{
+    max-width: 342px;
+}
+.ProjectTile__image img{
+    height: 219px;
+    object-fit: cover;
+}
+.ProjectTile__image {
+    display: flex;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,146 @@
+.home{
+    padding: 5px;
+}
+.content{
+    max-width: 1100px;
+    margin: auto;
+}
+.Home__header{
+  
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "  info   pic "
+    ;
+    grid-template-columns: 4fr 5fr;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+.media__container{
+    padding: 15px 0px;
+    width: 95%;
+    margin: auto;
+}
+.Home__headerInfo{
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: bold;
+    font-size: 1.5rem;
+    grid-area: info;
+    max-width: 99%;
+    margin-left: 150px;
+    margin-top: -126px;
+}
+.Home__headerPic{
+    grid-area: pic;
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+
+}
+.Home__headerPic svg[Attributes ]{
+    width: 100% !important;
+    height: 100% !important;
+}
+.Home__headerInfo div{
+   color: #fd5e53;
+}
+
+.Home__aboutMe{
+    height: 700px;
+    padding: 30px;
+    border: 1px solid blue;
+}
+.media{
+    display: flex;
+ 
+}
+.media a:hover{
+  
+}
+.media a{
+  
+}
+.icon{
+   display: inline-block;
+    font-size: 42px;
+    border-radius: 25px;
+    background: #fdfdfd;
+    margin-right: 40px;
+    color: rgb(255, 75, 43)!important;
+    transition: all .4 ease-in-out;
+}
+
+.icon :hover{
+    color: rgba(7, 7, 7, 0.719)!important;
+    transform: translateY(-1rem);
+}
+.home__buton{
+    margin-top: 47px;
+}
+ .btn{
+    width: 166px;
+    padding: 10px 0px;
+    padding: 10px 0px;
+    background-image: linear-gradient( 
+90deg
+ , rgb(255, 75, 43), rgb(255, 65, 108));
+    border: 0px;
+    color: white !important;
+    font-size: medium;
+    transition: all .4s ease-in-out !important;
+}
+ .btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(109, 107, 107) !important;
+    box-shadow:2px 3px 3px -2px rgb(92, 91, 91);
+    border: 1px solid rgb(255, 75, 43);
+    transform: translateY(-.4rem) !important ;
+}
+
+
+@media only screen and (max-width: 908px) {
+    .Home__header {
+        padding-top: 50px;
+         display: grid;
+         grid-template-areas:
+            "media"
+            " pic" 
+            " info ";
+         height: 100vh;
+         margin: auto;
+         grid-template-columns: unset;
+     }
+     .media{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+     }
+     .media__container{
+         grid-area: media;
+     }
+     .Home__headerInfo{
+          margin: auto;
+    }
+    
+    .content{
+        width: 99%;
+        margin: auto;
+    }
+    .home__buton .btn{
+        padding: 6px 0px;
+        }
+        
+                
+            .Home__headerPic{
+        height: 344px;
+        }
+           
+        .Home__headerInfo{
+        max-width: 99%;
+           
+            
+            text-align: center; 
+        }
+            
+  }

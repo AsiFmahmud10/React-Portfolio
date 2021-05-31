@@ -1,0 +1,43 @@
+.skillBox{
+    width: 400px;
+    height: 230px;
+    border-radius: 8px;
+    background: white;
+   padding: 15px;
+    box-shadow: 1px 2px 2px -2px rgb(141, 140, 140);
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.skillBox h3{
+    padding: 3px;
+    margin-bottom: 3px;
+}
+.skillBox p{
+    padding: 0px 52px;
+}
+
+
+
+@media only screen and (max-width: 908px){
+   :root{
+        font-size: 14px;   
+   }
+   .skillset__container{
+       flex-direction: column;
+   }
+       .skillset{
+           height: fit-content;
+       } 
+    .skillBox {
+        width: 96vw;
+        
+        height: 311px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.3rem ;
+    }
+}
+

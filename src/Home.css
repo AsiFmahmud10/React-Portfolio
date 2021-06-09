@@ -1,3 +1,16 @@
+.back__toTop{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    padding: 30px;
+    font-size: 30px;
+}
+.back__toTop a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(230, 54, 31);
+}
+
 .home{
     padding: 5px;
 }
@@ -99,7 +112,7 @@
 }
 
 
-@media only screen and (max-width: 908px) {
+@media only screen and (max-width: 1140px) {
     .Home__header {
         padding-top: 50px;
          display: grid;
@@ -138,9 +151,8 @@
            
         .Home__headerInfo{
         max-width: 99%;
-           
-            
-            text-align: center; 
+         text-align: center; 
         }
             
   }
+  

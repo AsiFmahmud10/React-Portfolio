@@ -6,7 +6,10 @@ import About from './components/About';
 import Skillset from './components/Skillset';
 import Media from './components/Media';
 import Projects from './components/Projects';
-
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import {Link} from 'react-scroll'
+import { FaAngleUp } from 'react-icons/fa';
 const Home = () => {
    const container = useRef(null)
 
@@ -52,8 +55,17 @@ const Home = () => {
               <About/>
              <Skillset/>
              <Projects/>
+             <Contact/>
+             <Footer/>
           
+             <div className="back__toTop">
+                     <Link activeClass="active" to="home" spy={true} smooth={true}> 
+                         <FaAngleUp/>
+                      </Link>
+             </div>
+
          </div>
+       
       );
 }
  
